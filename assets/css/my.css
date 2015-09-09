@@ -1,0 +1,12 @@
+.banner-text {
+    display: inline-block;
+    max-width: 300px;
+    color: white;
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.joshfreed {
+    border: 6px solid #E75344;
+}

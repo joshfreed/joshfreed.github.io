@@ -1,8 +1,10 @@
 #hero {
     background: url(../images/bg-2-overlay.jpg);
     background-repeat: no-repeat;
+    background-color: #4b494f;
+    background-size: cover;
     color: white;
-    padding: 16rem 0 16rem;
+    padding: 150px 0 150px;
 }
 
 #about-me {
@@ -50,142 +52,28 @@ footer li i {
     border-radius: 5px;
 }
 
-.headshot1 {
-    display: inline-block;
-    background-color: #000;
-    border: 6px solid #E75344;
-    background-image: url(../images/headshots/DSC_6050.JPG);
-    background-repeat: no-repeat;
-    background-position: 53% 40%;
-    background-size: 250% auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    vertical-align: middle;
+.quote-container {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 
-.headshot2 {
-    display: inline-block;
-    background-color: #000;
-    border: 6px solid #E75344;
-    background-image: url(../images/headshots/DSC_6063.JPG);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 180% auto;
-    width: 200px;
-    height: 200px;
+.headshot {
     border-radius: 50%;
-    vertical-align: middle;
+    border: 6px solid #E75344;
+    max-height: 200px;
 }
 
-.headshot3 {
-    display: inline-block;
-    background-color: #000;
-    border: 6px solid #E75344;
-    background-image: url(../images/headshots/DSC_6065.JPG);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 120% auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    vertical-align: middle;
+.text-center {
+    text-align: center;
 }
 
-.headshot4 {
-    display: inline-block;
-    background-color: #000;
-    border: 6px solid #E75344;
-    background-image: url(../images/headshots/DSC_6068.JPG);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 100% auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    vertical-align: middle;
-}
+@media (max-width: 550px) {
+    #hero {
+        padding: 50px 0 50px;
+    }
 
-.headshot5 {
-    display: inline-block;
-    background-color: #000;
-    border: 6px solid #E75344;
-    background-image: url(../images/headshots/DSC_6106.JPG);
-    background-repeat: no-repeat;
-    background-position: 50% 80%;
-    background-size: 100% auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    vertical-align: middle;
-}
-
-.headshot6 {
-    display: inline-block;
-    background-color: #000;
-    border: 6px solid #E75344;
-    background-image: url(../images/headshots/DSC_6109.JPG);
-    background-repeat: no-repeat;
-    background-position: 50% 80%;
-    background-size: 100% auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    vertical-align: middle;
-}
-
-.headshot7 {
-    display: inline-block;
-    background-color: #000;
-    border: 6px solid #E75344;
-    background-image: url(../images/headshots/DSC_6120.JPG);
-    background-repeat: no-repeat;
-    background-position: 50% 80%;
-    background-size: 100% auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    vertical-align: middle;
-}
-
-.headshot8 {
-    display: inline-block;
-    background-color: #000;
-    border: 6px solid #E75344;
-    background-image: url(../images/headshots/DSC_6046.JPG);
-    background-repeat: no-repeat;
-    background-position: 65% 40%;
-    background-size: 250% auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    vertical-align: middle;
-}
-
-.headshot9 {
-    display: inline-block;
-    background-color: #000;
-    border: 6px solid #E75344;
-    background-image: url(../images/headshots/DSC_6052.JPG);
-    background-repeat: no-repeat;
-    background-position: 50% 80%;
-    background-size: 100% auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    vertical-align: middle;
-}
-
-.headshot10 {
-    display: inline-block;
-    background-color: #000;
-    border: 6px solid #E75344;
-    background-image: url(../images/headshots/DSC_6056.JPG);
-    background-repeat: no-repeat;
-    background-position: 30% 20%;
-    background-size: 180% auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    vertical-align: middle;
+    .hero-text {
+        text-align: center;
+    }
 }

@@ -26,6 +26,31 @@
     background-color: #eee;
 }
 
+#project-info {
+    padding: 6rem 0 6rem;
+    /*background-color: #eee;*/
+}
+
+#project-screenshots {
+    padding: 6rem 0 6rem;
+    background-color: #eee;
+}
+
+header {
+    background-color: #4b494f;
+    padding: 2rem 0 2rem;
+    color: #999;
+}
+
+header h5 {
+    margin-bottom: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #999;
+}
+
 footer {
     padding: 2rem 0 2rem;
     background-color: #4b494f;
@@ -64,6 +89,12 @@ footer li i {
     max-height: 200px;
 }
 
+.headshot-mini {
+    border-radius: 50%;
+    border: 1px solid #E75344;
+    max-height: 80px;
+}
+
 .text-center {
     text-align: center;
 }
@@ -76,4 +107,8 @@ footer li i {
     .hero-text {
         text-align: center;
     }
+}
+
+.screenshot {
+    /*border: 1px solid #c0c0c0;*/
 }

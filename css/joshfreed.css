@@ -1,3 +1,7 @@
+.container {
+    max-width: 1100px;
+}
+
 #hero {
     background: url(../images/bg-2-overlay.jpg);
     background-repeat: no-repeat;
@@ -109,6 +113,52 @@ footer li i {
     }
 }
 
-.screenshot {
-    /*border: 1px solid #c0c0c0;*/
+
+/* Portfolio Images/Hover  */
+
+.project-thumbnail {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.overlay {
+    display: inline-block;
+    opacity: 0;
+    text-align: center;
+    padding: 12px;
+    color: black;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    left: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    transition: all .3s ease .15s;
+    -moz-transition: opacity .3s ease .15s;
+    -webkit-transition: opacity .3s ease .15s;
+    -o-transition: opacity .3s ease .15s;
+}
+
+.overlay h4 {
+    font-weight: bold;
+}
+
+.project-thumbnail:hover .overlay {
+    opacity: 1;
+}
+
+.project-thumbnail img {
+    opacity: 1;
+    transition: opacity .3s ease .15s;
+    -moz-transition: opacity .3s ease .15s;
+    -webkit-transition: opacity .3s ease .15s;
+    -o-transition: opacity .3s ease .15s;
+}
+
+.project-thumbnail:hover img {
+    opacity: 0.2;
 }

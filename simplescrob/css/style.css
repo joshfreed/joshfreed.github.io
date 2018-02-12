@@ -1,37 +1,67 @@
+html {
+    min-height: 100%;
+}
+
 body {
     background: linear-gradient(#43B7E3, #2081C3);
     color: #fff;
     font-family: "Helvetica Neue Light", "Helvetica Neue", "Helvetica", sans-serif;
-    height: 100vh;
 }
 
-a {
-    color: #033dec;
-}
+/* Layout */
 
 .container {
-    display: flex;
     margin: auto;
-    align-items: center;
-    width: 800px;
+    max-width: 800px;
 }
 
-#left {
-    width: 350px;
-    text-align: center;
+.flex-grid {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
-    /* Vertical Align */
+@media (max-width: 400px) {
+    .flex-grid {
+        display: block;
+    }
+}
+
+.col {
+    flex: 1;
+    text-align: center;
+}
+
+.vertical-align-middle {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#right {
-    width: 400px;
+/* Element Styles */
+
+a {
+    color: #033dec;
+}
+
+p {
+    margin-top: 40px;
+}
+
+/* Custom Styles */
+
+.logo img {
+    width: 150px;
 }
 
 .phone-image {
-    max-width: 100%;
+    width: 400px;
+}
+@media (max-width: 400px) {
+    .phone-image {
+        width: 100%;
+    }
 }
 
 .app-title {
@@ -50,8 +80,4 @@ a {
     font-size: 21px;
     margin-top: 40px;
     margin-bottom: 40px;
-}
-
-p {
-    margin-top: 40px;
 }

@@ -1,11 +1,15 @@
-h1 {
-    margin-bottom: 1rem;
-}
-
-.project {
+body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+h1 {
+    margin-bottom: 1rem;
 }
 
 .container {
@@ -50,20 +54,45 @@ h1 {
     background-color: #eee;
 }
 
+
+/* Header Bar */
+
 header {
     background-color: #4b494f;
     padding: 2rem 0 2rem;
     color: #999;
 }
 
-header h5 {
+.post-hero-header {
+    padding: 2rem 0;
+}
+
+.header-content, .post-hero-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header h5, .post-hero-header h5 {
     margin-bottom: 0;
 }
 
-header a {
+header a, .post-hero-header a {
     text-decoration: none;
     color: #999;
+    line-height: 0;
+    margin-right: 16px;
 }
+
+.post-hero-header a {
+    color: white;
+}
+
+header .headshot-mini, .post-hero-header .headshot-mini {
+    width: 45px;
+}
+
+/* Footer */
 
 footer {
     padding: 2rem 0 2rem;
@@ -85,6 +114,41 @@ footer li {
 footer li i {
     color: #999;
 }
+
+/* Projects Layout */
+
+.project {
+
+}
+
+/* Blog Post List */
+
+.posts {
+    margin-top: 20px;
+}
+
+/* Blog Post Layout */
+
+.post-hero {
+    background: #4b494f url(../images/bg-2-overlay.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.post-hero .hero-text {
+    padding: 150px 0;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    margin-top: 24px;
+}
+
+/* Components */
 
 .card {
     border: 1px solid #eee;

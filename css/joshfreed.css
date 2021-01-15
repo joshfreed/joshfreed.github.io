@@ -236,3 +236,16 @@ footer li i {
 .project-thumbnail:hover img {
     opacity: 0.1;
 }
+
+/* Project Page */
+
+.project-screenshots-container {
+    display: flex;
+}
+
+.project-screenshot {
+    flex: 1;
+}
+.project-screenshot img {
+    width: 100%;
+}
